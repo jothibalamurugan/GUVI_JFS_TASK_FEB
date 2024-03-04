@@ -1,4 +1,4 @@
-package com.JFSTask1;
+package com.JSFTask1;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

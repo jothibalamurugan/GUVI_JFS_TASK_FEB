@@ -1,4 +1,4 @@
-package com.JFSTask1;
+package com.JSFTask1;
 
 public class T1PrintTheNumber {
     public static void main(String[] args)

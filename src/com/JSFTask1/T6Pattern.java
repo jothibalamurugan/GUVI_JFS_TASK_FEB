@@ -1,4 +1,4 @@
-package com.JFSTask1;
+package com.JSFTask1;
 
 public class T6Pattern {
     public static void main(String[] args) {
