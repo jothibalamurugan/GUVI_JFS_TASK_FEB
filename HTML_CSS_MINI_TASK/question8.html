@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Default Values for Form Elements</title>
+</head>
+<body>
+    <form action="#" method="POST">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" value="John Doe">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" value="john.doe@example.com">
+        </div>
+        <div>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" value="123-456-7890">
+        </div>
+        <div>
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female" selected>Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div>
+            <label>Employee Type:</label><br>
+            <input type="radio" id="salaried" name="employee_type" value="salaried" checked>
+            <label for="salaried">Salaried</label><br>
+            <input type="radio" id="own-business" name="employee_type" value="own_business">
+            <label for="own-business">Own Business</label><br>
+        </div>
+        <div>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5">This is a default message.</textarea>
+        </div>
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" checked>
+            <label for="subscribe">Subscribe to Newsletter</label>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
